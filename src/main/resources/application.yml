@@ -1,0 +1,29 @@
+#spring.jpa:
+#  database: MYSQL
+#  hibernate.ddl-auto: validate
+#  show-sql: true
+
+#spring.datasource:
+#  driverClassName: com.mysql.jdbc.Driver
+#  url: jdbc:mysql://us-cdbr-iron-east-05.cleardb.net:3306/ad_35e4dd290b66536
+#  username: b223a15035e277
+#  password: 91c250e8
+#  initialSize: 1
+#  maxActive: 1
+  
+#spring.data.mongodb.authentication-database: # Authentication database name.
+#spring.data.mongodb.database: test # Database name.
+#spring.data.mongodb.field-naming-strategy:  # Fully qualified name of the FieldNamingStrategy to use.
+#spring.data.mongodb.grid-fs-database: # GridFS database name.
+#spring.data.mongodb.host: localhost # Mongo server host.
+#spring.data.mongodb.password:  # Login password of the mongo server.
+#spring.data.mongodb.port: 27017 # Mongo server port.
+spring.data.mongodb.repositories.enabled: true 
+# Enable Mongo repositories.
+#spring.data.mongodb.uri: mongodb://localhost/test # Mongo database URI. When set, host and port are ignored.
+spring.data.mongodb.uri: mongodb://CloudFoundry_46205t8c_qdp55khm_pe0an2b7:sscsExUGi3vCesRdTlt_Y-MUv4-e6c2c@ds139124.mlab.com:39124/CloudFoundry_46205t8c_qdp55khm
+#spring.data.mongodb.username: = # Login user of the mongo server.
+ 
+#mongodb://CloudFoundry_46205t8c_qdp55khm_pe0an2b7:sscsExUGi3vCesRdTlt_Y-MUv4-e6c2c@ds139124.mlab.com:39124/CloudFoundry_46205t8c_qdp55khm
+
+logging.level.org.springframework.data: DEBUG
